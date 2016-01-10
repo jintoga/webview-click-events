@@ -1,0 +1,56 @@
+
+#container {
+    position: relative;    
+}
+
+#cage14 {
+    position: absolute;
+    top: 18px;
+    left: 115px;
+    height:76px;
+    width:140px;
+    background-color:Transparent;
+    /*border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;*/
+}
+
+#cage32 {
+    position: absolute;
+    top: 326px;
+    left: 405px;
+    height:46px;
+    width:75px;
+    background-color:Transparent;
+   /* border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;*/
+}
+
+#cage44 {
+    position: absolute;
+    top: 408px;
+    left: 722px;
+    height:47px;
+    width:55px;
+    background-color:Transparent;
+    /*border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;*/
+}
+
+#cage48 {
+    position: absolute;
+    top: 155px;
+    left: 92px;
+    height:233px;
+    width:67px;
+    background-color:Transparent;
+    /*border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;*/
+}
