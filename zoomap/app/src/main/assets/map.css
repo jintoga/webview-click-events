@@ -1,56 +1,98 @@
 
 #container {
-    position: relative;    
+    position: relative;
+    background-image: url("map.png");
 }
-
-#cage14 {
-    position: absolute;
-    top: 18px;
-    left: 115px;
-    height:76px;
-    width:140px;
-    background-color:Transparent;
-    /*border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;*/
+.map {
+  font-family: "Roboto Slab";
+  position: relative;
+  height: 737px;
+  width: 1030px;
+  background-image: url("map.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
-#cage32 {
-    position: absolute;
-    top: 326px;
-    left: 405px;
-    height:46px;
-    width:75px;
-    background-color:Transparent;
-   /* border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;*/
+.map .animal_jungle-cat {
+  position: absolute;
+  left: 430px;
+  bottom: 204px;
 }
-
-#cage44 {
-    position: absolute;
-    top: 408px;
-    left: 722px;
-    height:47px;
-    width:55px;
-    background-color:Transparent;
-    /*border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;*/
+.map .animal_jungle-cat .animal__icon {
+  width: 39px;
+  height: 40px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -788px -233px;
 }
-
-#cage48 {
-    position: absolute;
-    top: 155px;
-    left: 92px;
-    height:233px;
-    width:67px;
-    background-color:Transparent;
-    /*border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;*/
+.map .animal_jungle-cat .animal__icon:hover {
+  width: 50px;
+  height: 53px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -724px -130px;
+  left: -5.5px;
+  bottom: -6.5px;
+}
+.map .animal_silver-fox {
+  position: absolute;
+  left: 452px;
+  bottom: 375px;
+}
+.map .animal_silver-fox .animal__icon {
+  width: 48px;
+  height: 38px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -661px -117px;
+}
+.map .animal_silver-fox .animal__icon:hover {
+  width: 66px;
+  height: 54px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -225px -516px;
+  left: -9px;
+  bottom: -8px;
+}
+.map .animal_polarfox {
+  position: absolute;
+  left: 452px;
+  bottom: 418px;
+}
+.map .animal_polarfox .animal__icon {
+  width: 49px;
+  height: 30px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -788px -480px;
+}
+.map .animal_polarfox .animal__icon:hover {
+  width: 68px;
+  height: 43px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -345px -447px;
+  left: -9.5px;
+  bottom: -6.5px;
+}
+.map .animal_markhor {
+  position: absolute;
+  left: 158px;
+  top: 100px;
+}
+.map .animal_markhor .animal__icon {
+  width: 50px;
+  height: 55px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -724px -65px;
+}
+.map .animal_markhor .animal__icon:hover {
+  width: 69px;
+  height: 75px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -411px -62px;
+  left: -9.5px;
+  bottom: -10px;
 }

@@ -22,22 +22,21 @@ public class WebAppInterface {
      */
     @JavascriptInterface
     public void clickedCage14() {
-        Toast.makeText(mContext, "Сибирская косуля", Toast.LENGTH_SHORT).show();
+        Toast.makeText(mContext, "animal_jungle-cat", Toast.LENGTH_SHORT).show();
     }
 
     @JavascriptInterface
     public void clickedCage32() {
-        Toast.makeText(mContext, "Гималайский медведь", Toast.LENGTH_SHORT).show();
+        Toast.makeText(mContext, "animal_silver-fox", Toast.LENGTH_SHORT).show();
     }
 
     @JavascriptInterface
     public void clickedCage44() {
-        Toast.makeText(mContext, "Кенгуру", Toast.LENGTH_SHORT).show();
+        Toast.makeText(mContext, "animal_polarfox", Toast.LENGTH_SHORT).show();
     }
 
     @JavascriptInterface
     public void clickedCage48() {
-        Toast.makeText(mContext, "Детская площадка", Toast.LENGTH_SHORT).show();
+        Toast.makeText(mContext, "animal_markhor", Toast.LENGTH_SHORT).show();
     }
-
 }
