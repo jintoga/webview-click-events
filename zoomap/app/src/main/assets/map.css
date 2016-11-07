@@ -12,6 +12,264 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.icon_legend {
+  position: absolute;
+}
+.icon_legend_cup {
+  width: 30px;
+  height: 36px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: 0px -761px;
+  bottom: 75px;
+  right: 245px;
+}
+.icon_legend_ticket {
+  width: 41px;
+  height: 35px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -788px -603px;
+  bottom: 70px;
+  right: 320px;
+}
+.icon_legend_info {
+  width: 13px;
+  height: 30px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -831px -683px;
+  bottom: 149px;
+  right: 255px;
+}
+.icon_legend_mic {
+  width: 32px;
+  height: 31px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -42px -807px;
+  bottom: 147px;
+  right: 162px;
+}
+.icon_legend_house {
+  width: 31px;
+  height: 32px;
+  background-image: url("sprite.png");
+  background-repeat: no-repeat;
+  background-position: 0px -163px;
+  bottom: 186px;
+  right: 333px;
+}
+.icon_legend_rings {
+  width: 30px;
+  height: 20px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -693px -719px;
+  bottom: 24px;
+  left: 110px;
+}
+.icon_legend_castle {
+  width: 32px;
+  height: 33px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: 0px -807px;
+  bottom: 488px;
+  left: 107px;
+}
+.icon_legend_wc {
+  width: 30px;
+  height: 14px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -411px -347px;
+  bottom: 360px;
+  right: 13px;
+}
+.icon_legend_paw {
+  width: 25px;
+  height: 28px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -856px -44px;
+  top: 116px;
+  right: 125px;
+}
+.icon_legend_enter {
+  bottom: -39px;
+  right: 170px;
+  color: #606060;
+  font-size: 28px;
+  font-weight: 700;
+}
+.icon_legend_enter::before {
+  content: "";
+  position: absolute;
+  width: 61px;
+  height: 46px;
+  background-image: url("sprite_animals.png");
+  background-repeat: no-repeat;
+  background-position: -521px -516px;
+  left: -70px;
+  top: -16px;
+}
+.map-description {
+  margin-top: 100px;
+  padding-left: 30px;
+  font-family: "Roboto Slab";
+}
+.map-description__column {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+.map-description__column:last-child {
+  margin-right: 0;
+  margin-left: 100px;
+}
+.map-description .animal {
+  display: block;
+  width: 150px;
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 2px;
+  text-decoration: none;
+  color: #000;
+}
+.map-description .animal__name {
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 700;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding-left: 4px;
+}
+.map-description .animal__name span {
+  left: -2px;
+  top: 0;
+  position: absolute;
+}
+.map-description .animal__latin {
+  color: #848484;
+  font-size: 11px;
+  font-weight: 700;
+  padding-left: 4px;
+}
+.map-description .legend {
+  position: relative;
+  margin-bottom: 9px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.map-description .legend_paw::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 18px;
+  height: 19px;
+  margin-top: -9px;
+  background-image: url("sprite_animals.png");
+  background-position: -856px -816px;
+  background-repeat: no-repeat;
+}
+.map-description .legend_rings::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 16px;
+  height: 10px;
+  margin-top: -5px;
+  background-image: url("sprite_animals.png");
+  background-position: -451px -347px;
+  background-repeat: no-repeat;
+}
+.map-description .legend_castle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 16px;
+  height: 17px;
+  margin-top: -8px;
+  background-image: url("sprite_animals.png");
+  background-position: -497px -176px;
+  background-repeat: no-repeat;
+}
+.map-description .legend_house::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  background-image: url("sprite.png");
+  background-position: 0px -269px;
+  background-repeat: no-repeat;
+}
+.map-description .legend_wc::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 16px;
+  height: 7px;
+  margin-top: -3px;
+  background-image: url("sprite_animals.png");
+  background-position: -724px -643px;
+  background-repeat: no-repeat;
+}
+.map-description .legend_mic::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 16px;
+  height: 15px;
+  margin-top: -7px;
+  background-image: url("sprite_animals.png");
+  background-position: -733px -719px;
+  background-repeat: no-repeat;
+}
+.map-description .legend_info::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  width: 7px;
+  height: 16px;
+  margin-top: -8px;
+  background-image: url("sprite_animals.png");
+  background-position: -837px -39px;
+  background-repeat: no-repeat;
+}
+.map-description .legend_ticket::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -26px;
+  width: 17px;
+  height: 14px;
+  margin-top: -7px;
+  background-image: url("sprite.png");
+  background-position: -53px -269px;
+  background-repeat: no-repeat;
+}
+.map-description .legend_cup::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 16px;
+  height: 19px;
+  margin-top: -9px;
+  background-image: url("sprite_animals.png");
+  background-position: -497px -147px;
+  background-repeat: no-repeat;
+}
 .map .animal_coypu {
   position: absolute;
   left: 441px;
