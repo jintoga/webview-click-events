@@ -18,13 +18,17 @@
   bottom: 150px;
 }
 .map .animal_coypu .animal__icon {
+  position: absolute;
   width: 39px;
   height: 24px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -469px -719px;
+  left: -6px;
+  bottom: -5px;
 }
 .map .animal_coypu .animal__icon:hover {
+  position: absolute;
   width: 51px;
   height: 34px;
   background-image: url("sprite_animals.png");
@@ -35,7 +39,7 @@
 }
 .map .animal_coypu .animal__text {
   position: absolute;
-  top: -12px;
+  top: -32px;
   left: -12px;
 }
 .map .animal_jungle-cat {
@@ -44,13 +48,17 @@
   bottom: 204px;
 }
 .map .animal_jungle-cat .animal__icon {
+  position: absolute;
   width: 39px;
   height: 40px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -233px;
+  left: -5.5px;
+  bottom: -6.5px;
 }
 .map .animal_jungle-cat .animal__icon:hover {
+  position: absolute;
   width: 50px;
   height: 53px;
   background-image: url("sprite_animals.png");
@@ -61,8 +69,8 @@
 }
 .map .animal_jungle-cat .animal__text {
   position: absolute;
-  top: -2px;
-  left: -10px;
+  top: -42px;
+  left: -8px;
 }
 .map .animal_silver-fox {
   position: absolute;
@@ -70,24 +78,28 @@
   bottom: 375px;
 }
 .map .animal_silver-fox .animal__icon {
+  position: absolute;
   width: 48px;
   height: 38px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -661px -117px;
+  left: -5px;
+  bottom: 0px;
 }
 .map .animal_silver-fox .animal__icon:hover {
+  position: absolute;
   width: 66px;
   height: 54px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -225px -516px;
-  left: -9px;
-  bottom: -8px;
+  left: -5px;
+  bottom: 0px;
 }
 .map .animal_silver-fox .animal__text {
   position: absolute;
-  top: 5px;
+  top: -35px;
   left: -38px;
 }
 .map .animal_polarfox {
@@ -96,13 +108,17 @@
   bottom: 418px;
 }
 .map .animal_polarfox .animal__icon {
+  position: absolute;
   width: 49px;
   height: 30px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -480px;
+  left: -5px;
+  bottom: 0px;
 }
 .map .animal_polarfox .animal__icon:hover {
+  position: absolute;
   width: 68px;
   height: 43px;
   background-image: url("sprite_animals.png");
@@ -113,7 +129,7 @@
 }
 .map .animal_polarfox .animal__text {
   position: absolute;
-  top: 5px;
+  top: -26px;
   left: -36px;
 }
 .map .animal_markhor {
@@ -137,10 +153,15 @@
   left: -9.5px;
   bottom: -10px;
 }
+.map .animal_markhor .animal__text {
+  position: absolute;
+  top: -12px;
+  left: -7px;
+}
 .map .animal_homemade-goat {
   position: absolute;
-  left: 288px;
-  top: 284px;
+  left: 315px;
+  top: 234px;
 }
 .map .animal_homemade-goat .animal__icon {
   width: 38px;
@@ -160,8 +181,8 @@
 }
 .map .animal_homemade-goat .animal__text {
   position: absolute;
-  top: -60px;
-  left: -7px;
+  top: -5px;
+  left: -4px;
 }
 .map .animal_sable {
   position: absolute;
@@ -169,24 +190,28 @@
   bottom: 85px;
 }
 .map .animal_sable .animal__icon {
+  position: absolute;
   width: 58px;
   height: 32px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: 0px -719px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_sable .animal__icon:hover {
+  position: absolute;
   width: 70px;
   height: 41px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -423px -447px;
-  left: -6px;
+  left: 2px;
   bottom: -4.5px;
 }
 .map .animal_sable .animal__text {
   position: absolute;
-  top: -10px;
+  top: -35px;
   left: 0px;
 }
 .map .animal_squirel {
@@ -195,24 +220,28 @@
   bottom: 85px;
 }
 .map .animal_squirel .animal__icon {
+  position: absolute;
   width: 39px;
   height: 39px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -333px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_squirel .animal__icon:hover {
+  position: absolute;
   width: 46px;
   height: 47px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -724px -193px;
-  left: -3.5px;
-  bottom: -4px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_squirel .animal__text {
   position: absolute;
-  top: -2px;
+  top: -32px;
   left: -10px;
 }
 .map .animal_guinea-pig {
@@ -221,24 +250,28 @@
   bottom: 87px;
 }
 .map .animal_guinea-pig .animal__icon {
+  position: absolute;
   width: 38px;
   height: 29px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -344px -302px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_guinea-pig .animal__icon:hover {
+  position: absolute;
   width: 49px;
   height: 40px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -724px -484px;
-  left: -5.5px;
-  bottom: -5.5px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_guinea-pig .animal__text {
   position: absolute;
-  top: -10px;
+  top: -30px;
   left: -5px;
 }
 .map .animal_nasua {
@@ -247,24 +280,28 @@
   bottom: 31px;
 }
 .map .animal_nasua .animal__icon {
+  position: absolute;
   width: 77px;
   height: 22px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -521px -591px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_nasua .animal__icon:hover {
+  position: absolute;
   width: 114px;
   height: 37px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -174px -371px;
-  left: -18.5px;
-  bottom: -7.5px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_nasua .animal__text {
   position: absolute;
-  top: -12px;
+  top: -32px;
   left: -12px;
 }
 .map .animal_porcupine {
@@ -273,24 +310,28 @@
   bottom: 23px;
 }
 .map .animal_porcupine .animal__icon {
+  position: absolute;
   width: 48px;
   height: 39px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -724px -594px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_porcupine .animal__icon:hover {
+  position: absolute;
   width: 64px;
   height: 54px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -301px -516px;
-  left: -8px;
-  bottom: -7.5px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_porcupine .animal__text {
   position: absolute;
-  top: -5px;
+  top: -40px;
   left: -12px;
 }
 .map .animal_siberian-tiger {
@@ -299,24 +340,28 @@
   bottom: 102px;
 }
 .map .animal_siberian-tiger .animal__icon {
+  position: absolute;
   width: 58px;
   height: 43px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -133px -661px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_siberian-tiger .animal__icon:hover {
+  position: absolute;
   width: 88px;
   height: 68px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -205px -221px;
-  left: -15px;
-  bottom: -12.5px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_siberian-tiger .animal__text {
   position: absolute;
-  top: -8px;
+  top: -52px;
   left: -8px;
 }
 .map .animal_leopard {
@@ -325,24 +370,28 @@
   bottom: 172px;
 }
 .map .animal_leopard .animal__icon {
+  position: absolute;
   width: 58px;
   height: 43px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -201px -661px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_leopard .animal__icon:hover {
+  position: absolute;
   width: 76px;
   height: 59px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: 0px -447px;
-  left: -9px;
-  bottom: -8px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_leopard .animal__text {
   position: absolute;
-  top: -8px;
+  top: -52px;
   left: -8px;
 }
 .map .animal_lion {
@@ -351,24 +400,28 @@
   bottom: 242px;
 }
 .map .animal_lion .animal__icon {
+  position: absolute;
   width: 60px;
   height: 34px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -609px -661px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_lion .animal__icon:hover {
+  position: absolute;
   width: 91px;
   height: 53px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -411px -221px;
-  left: -15.5px;
-  bottom: -9.5px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_lion .animal__text {
   position: absolute;
-  top: -8px;
+  top: -52px;
   left: -8px;
 }
 .map .animal_puma {
@@ -377,25 +430,29 @@
   bottom: 232px;
 }
 .map .animal_puma .animal__icon {
+  position: absolute;
   width: 58px;
   height: 36px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -541px -661px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_puma .animal__icon:hover {
+  position: absolute;
   width: 83px;
   height: 54px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -81px -371px;
-  left: -12.5px;
-  bottom: -9px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_puma .animal__text {
   position: absolute;
-  top: -8px;
-  left: -8px;
+  top: -52px;
+  left: -2px;
 }
 .map .animal_corsac {
   position: absolute;
@@ -403,24 +460,28 @@
   bottom: 222px;
 }
 .map .animal_corsac .animal__icon {
+  position: absolute;
   width: 48px;
   height: 37px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -661px -212px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_corsac .animal__icon:hover {
+  position: absolute;
   width: 62px;
   height: 49px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -449px -516px;
-  left: -7px;
-  bottom: -6px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_corsac .animal__text {
   position: absolute;
-  top: -2px;
+  top: -42px;
   left: 0px;
 }
 .map .animal_silver-fox-snow {
@@ -429,24 +490,28 @@
   bottom: 210px;
 }
 .map .animal_silver-fox-snow .animal__icon {
+  position: absolute;
   width: 48px;
   height: 38px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -661px -117px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_silver-fox-snow .animal__icon:hover {
+  position: absolute;
   width: 66px;
   height: 54px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -225px -516px;
-  left: -9px;
-  bottom: -8px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_silver-fox-snow .animal__text {
   position: absolute;
-  top: -6px;
+  top: -42px;
   left: -2px;
 }
 .map .animal_genet {
@@ -478,27 +543,31 @@
 .map .animal_carpelous {
   position: absolute;
   left: 175px;
-  top: 75px;
+  top: 55px;
 }
 .map .animal_carpelous .animal__icon {
+  position: absolute;
   width: 39px;
   height: 53px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -724px -250px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_carpelous .animal__icon:hover {
+  position: absolute;
   width: 72px;
   height: 97px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -222px -99px;
-  left: -8px;
-  bottom: -7.5px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_carpelous .animal__text {
   position: absolute;
-  top: -12px;
+  top: -52px;
   left: -12px;
 }
 .map .animal_rabbit {
@@ -507,24 +576,28 @@
   bottom: 334px;
 }
 .map .animal_rabbit .animal__icon {
+  position: absolute;
   width: 39px;
   height: 33px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -661px -338px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_rabbit .animal__icon:hover {
+  position: absolute;
   width: 55px;
   height: 48px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: 0px -661px;
-  left: -8px;
-  bottom: -7.5px;
+  left: -5px;
+  bottom: -4.5px;
 }
 .map .animal_rabbit .animal__text {
   position: absolute;
-  top: -12px;
+  top: -52px;
   left: -1px;
 }
 .map .animal_moose {
@@ -559,24 +632,28 @@
   bottom: 324px;
 }
 .map .animal_donkey .animal__icon {
+  position: absolute;
   width: 58px;
   height: 65px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -524px -408px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_donkey .animal__icon:hover {
+  position: absolute;
   width: 72px;
   height: 81px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -313px -77px;
-  left: -7px;
-  bottom: -8px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_donkey .animal__text {
   position: absolute;
-  top: -6px;
+  top: -72px;
   left: 3px;
 }
 .map .animal_wild-boar {
@@ -585,24 +662,28 @@
   bottom: 285px;
 }
 .map .animal_wild-boar .animal__icon {
+  position: absolute;
   width: 58px;
   height: 41px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -405px -661px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_wild-boar .animal__icon:hover {
+  position: absolute;
   width: 76px;
   height: 56px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -86px -447px;
-  left: -9px;
-  bottom: -7.5px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_wild-boar .animal__text {
   position: absolute;
-  top: -5px;
+  top: -42px;
   left: -12px;
 }
 .map .animal_vietnam-pig {
@@ -611,24 +692,28 @@
   bottom: 342px;
 }
 .map .animal_vietnam-pig .animal__icon {
+  position: absolute;
   width: 58px;
   height: 32px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -679px -661px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_vietnam-pig .animal__icon:hover {
+  position: absolute;
   width: 82px;
   height: 47px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -313px -243px;
-  left: -12px;
-  bottom: -7.5px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_vietnam-pig .animal__text {
   position: absolute;
-  top: -6px;
+  top: -42px;
   left: -16px;
 }
 .map .animal_pony {
@@ -637,24 +722,28 @@
   bottom: 390px;
 }
 .map .animal_pony .animal__icon {
+  position: absolute;
   width: 58px;
   height: 45px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -65px -661px;
+  left: 0px;
+  bottom: -4.5px;
 }
 .map .animal_pony .animal__icon:hover {
+  position: absolute;
   width: 88px;
   height: 71px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -107px -221px;
-  left: -1px;
-  bottom: -1px;
+  left: 5px;
+  bottom: -4.5px;
 }
 .map .animal_pony .animal__text {
   position: absolute;
-  top: -5px;
+  top: -52px;
   left: -12px;
 }
 .map .animal_goat {
@@ -663,25 +752,29 @@
   bottom: 456px;
 }
 .map .animal_goat .animal__icon {
+  position: absolute;
   width: 39px;
   height: 41px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -182px;
+  left: -5px;
+  bottom: -2.5px;
 }
 .map .animal_goat .animal__icon:hover {
+  position: absolute;
   width: 53px;
   height: 58px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -661px 0px;
   left: -7px;
-  bottom: -8.5px;
+  bottom: -9px;
 }
 .map .animal_goat .animal__text {
   position: absolute;
-  top: -12px;
-  left: 0;
+  top: -52px;
+  left: -2px;
 }
 .map .animal_sheep {
   position: absolute;
@@ -689,24 +782,28 @@
   bottom: 514px;
 }
 .map .animal_sheep .animal__icon {
+  position: absolute;
   width: 39px;
   height: 38px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -520px;
+  left: -2px;
+  bottom: -2.5px;
 }
 .map .animal_sheep .animal__icon:hover {
+  position: absolute;
   width: 56px;
   height: 56px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -593px -446px;
-  left: -8.5px;
-  bottom: -9px;
+  left: -5px;
+  bottom: -12px;
 }
 .map .animal_sheep .animal__text {
   position: absolute;
-  top: -12px;
+  top: -52px;
   left: 0px;
 }
 .map .animal_mouflon {
@@ -715,24 +812,28 @@
   bottom: 514px;
 }
 .map .animal_mouflon .animal__icon {
+  position: absolute;
   width: 39px;
   height: 44px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -39px;
+  left: -2px;
+  bottom: -2.5px;
 }
 .map .animal_mouflon .animal__icon:hover {
+  position: absolute;
   width: 58px;
   height: 66px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -524px -332px;
-  left: -9.5px;
+  left: 2.5px;
   bottom: -11px;
 }
 .map .animal_mouflon .animal__text {
   position: absolute;
-  top: -6px;
+  top: -52px;
   left: 0px;
 }
 .map .animal_yak {
@@ -741,126 +842,148 @@
   bottom: 580px;
 }
 .map .animal_yak .animal__icon {
+  position: absolute;
   width: 58px;
   height: 41px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -473px -661px;
+  left: -2px;
+  bottom: -2.5px;
 }
 .map .animal_yak .animal__icon:hover {
+  position: absolute;
   width: 97px;
   height: 71px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: 0px -221px;
-  left: -19.5px;
+  left: -2.5px;
   bottom: -15px;
 }
 .map .animal_yak .animal__text {
   position: absolute;
-  top: -6px;
+  top: -52px;
   left: -16px;
 }
 .map .animal_red-deer {
   position: absolute;
-  left: 299px;
-  top: 25px;
+  left: 309px;
+  top: 60px;
 }
 .map .animal_red-deer .animal__icon {
+  position: absolute;
   width: 58px;
   height: 63px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -593px 0px;
+  left: -2.5px;
+  bottom: -15px;
 }
 .map .animal_red-deer .animal__icon:hover {
+  position: absolute;
   width: 81px;
   height: 89px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -222px 0px;
+  left: 5.5px;
+  bottom: -15px;
 }
 .map .animal_red-deer .animal__text {
   position: absolute;
-  top: -12px;
-  left: -6px;
+  top: -52px;
+  left: -16px;
 }
 .map .animal_north-deer {
   position: absolute;
-  left: 427px;
-  top: 12px;
+  left: 435px;
+  top: 60px;
 }
 .map .animal_north-deer .animal__icon {
+  position: absolute;
   width: 58px;
   height: 70px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -524px -252px;
+  left: -2.5px;
+  bottom: -15px;
 }
 .map .animal_north-deer .animal__icon:hover {
+  position: absolute;
   width: 86px;
   height: 104px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: 0px -107px;
-  left: 9.5px;
-  bottom: 212.5px;
+  left: 2.5px;
+  bottom: -15px;
 }
 .map .animal_north-deer .animal__text {
   position: absolute;
-  top: -2px;
+  top: -52px;
   left: -19px;
 }
 .map .animal_european-deer {
   position: absolute;
-  left: 523px;
-  top: 12px;
+  left: 535px;
+  top: 60px;
 }
 .map .animal_european-deer .animal__icon {
+  position: absolute;
   width: 58px;
   height: 72px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -524px -170px;
+  left: -2.5px;
+  bottom: -15px;
 }
 .map .animal_european-deer .animal__icon:hover {
+  position: absolute;
   width: 77px;
   height: 97px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -118px -98px;
-  left: -9.5px;
-  bottom: -12.5px;
+  left: -2.5px;
+  bottom: -18px;
 }
 .map .animal_european-deer .animal__text {
   position: absolute;
-  top: -6px;
+  top: -52px;
   left: -2px;
 }
 .map .animal_macaque {
   position: absolute;
   left: 613px;
-  top: 23px;
+  top: 60px;
 }
 .map .animal_macaque .animal__icon {
+  position: absolute;
   width: 48px;
   height: 39px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -661px -68px;
+  left: -2.5px;
+  bottom: -5px;
 }
 .map .animal_macaque .animal__icon:hover {
+  position: absolute;
   width: 76px;
   height: 64px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -411px -147px;
-  left: -14px;
+  left: -6px;
   bottom: -12.5px;
 }
 .map .animal_macaque .animal__text {
   position: absolute;
-  top: -15px;
+  top: -52px;
   left: -3px;
 }
 .map .animal_green-monkey {
@@ -895,24 +1018,28 @@
   bottom: 499px;
 }
 .map .animal_lynx .animal__icon {
+  position: absolute;
   width: 58px;
   height: 42px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -337px -661px;
+  left: -6px;
+  bottom: -2.5px;
 }
 .map .animal_lynx .animal__icon:hover {
+  position: absolute;
   width: 86px;
   height: 65px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -313px -168px;
-  left: -14px;
-  bottom: -11.5px;
+  left: -6px;
+  bottom: -2.5px;
 }
 .map .animal_lynx .animal__text {
   position: absolute;
-  top: 0px;
+  top: -42px;
   left: -32px;
 }
 .map .animal_racoon-dog {
@@ -921,24 +1048,28 @@
   bottom: 457px;
 }
 .map .animal_racoon-dog .animal__icon {
+  position: absolute;
   width: 58px;
   height: 29px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px 0px;
+  left: 2px;
+  bottom: 2.5px;
 }
 .map .animal_racoon-dog .animal__icon:hover {
+  position: absolute;
   width: 89px;
   height: 47px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -172px -447px;
-  left: -15.5px;
-  bottom: -9px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_racoon-dog .animal__text {
   position: absolute;
-  top: -0px;
+  top: -35px;
   left: -26px;
 }
 .map .animal_wolf {
@@ -947,24 +1078,28 @@
   bottom: 326px;
 }
 .map .animal_wolf .animal__icon {
+  position: absolute;
   width: 58px;
   height: 42px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -269px -661px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_wolf .animal__icon:hover {
+  position: absolute;
   width: 88px;
   height: 67px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -313px 0px;
-  left: -15px;
-  bottom: -12.5px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_wolf .animal__text {
   position: absolute;
-  top: 0px;
+  top: -36px;
   left: -36px;
 }
 .map .animal_bear {
@@ -973,24 +1108,28 @@
   bottom: 275px;
 }
 .map .animal_bear .animal__icon {
+  position: absolute;
   width: 68px;
   height: 39px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -275px -591px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_bear .animal__icon:hover {
+  position: absolute;
   width: 98px;
   height: 59px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: 0px -302px;
-  left: -15px;
-  bottom: -10px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_bear .animal__text {
   position: absolute;
-  top: 0px;
+  top: -35px;
   left: -36px;
 }
 .map .animal_emu {
@@ -999,24 +1138,28 @@
   bottom: 292px;
 }
 .map .animal_emu .animal__icon {
+  position: absolute;
   width: 39px;
   height: 50px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -724px -534px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_emu .animal__icon:hover {
+  position: absolute;
   width: 59px;
   height: 75px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -524px 0px;
-  left: -10px;
-  bottom: -12.5px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_emu .animal__text {
   position: absolute;
-  top: -0px;
+  top: -52px;
   left: -36px;
 }
 .map .animal_birds {
@@ -1131,50 +1274,58 @@
   left: 591px;
 }
 .map .animal_pelican .animal__icon {
+  position: absolute;
   width: 39px;
   height: 39px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -431px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_pelican .animal__icon:hover {
+  position: absolute;
   width: 59px;
   height: 60px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: 0px -591px;
-  left: -10px;
-  bottom: -10.5px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_pelican .animal__text {
   position: absolute;
-  top: -12px;
+  top: -52px;
   left: -2px;
 }
 .map .animal_swan {
   position: absolute;
-  bottom: 482px;
-  left: 645px;
+  bottom: 480px;
+  left: 652px;
 }
 .map .animal_swan .animal__icon {
+  position: absolute;
   width: 34px;
   height: 34px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -661px -499px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_swan .animal__icon:hover {
+  position: absolute;
   width: 64px;
   height: 65px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: 0px -516px;
-  left: -15px;
-  bottom: -15.5px;
+  left: 2px;
+  bottom: -6.5px;
 }
 .map .animal_swan .animal__text {
   position: absolute;
-  top: -12px;
+  top: -52px;
   left: -2px;
 }
 .map .animal_flamingo {
@@ -1183,13 +1334,17 @@
   left: 332px;
 }
 .map .animal_flamingo .animal__icon {
+  position: absolute;
   width: 39px;
   height: 40px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -283px;
+  left: 2px;
+  bottom: -7px;
 }
 .map .animal_flamingo .animal__icon:hover {
+  position: absolute;
   width: 58px;
   height: 62px;
   background-image: url("sprite_animals.png");
@@ -1200,8 +1355,8 @@
 }
 .map .animal_flamingo .animal__text {
   position: absolute;
-  top: -5px;
-  left: -12px;
+  top: -52px;
+  left: -15px;
 }
 .map .animal_turtle {
   position: absolute;
@@ -1231,8 +1386,8 @@
 }
 .map .animal_camel {
   position: absolute;
-  top: 75px;
-  left: 692px;
+  top: 15px;
+  left: 706px;
 }
 .map .animal_camel .animal__icon {
   width: 68px;
@@ -1252,13 +1407,13 @@
 }
 .map .animal_camel .animal__text {
   position: absolute;
-  top: -69px;
-  left: -25px;
+  top: -8px;
+  left: -20px;
 }
 .map .animal_baikal-horse {
   position: absolute;
-  top: 75px;
-  left: 804px;
+  top: 20px;
+  left: 834px;
 }
 .map .animal_baikal-horse .animal__icon {
   width: 58px;
@@ -1278,8 +1433,8 @@
 }
 .map .animal_baikal-horse .animal__text {
   position: absolute;
-  top: -69px;
-  left: -25px;
+  top: -12px;
+  left: -15px;
 }
 .map .animal_badger {
   position: absolute;
@@ -1287,117 +1442,137 @@
   left: 512px;
 }
 .map .animal_badger .animal__icon {
+  position: absolute;
   width: 48px;
   height: 21px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -524px -483px;
+  left: -12px;
+  bottom: -7px;
 }
 .map .animal_badger .animal__icon:hover {
+  position: absolute;
   width: 72px;
   height: 35px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -381px -371px;
-  left: -12px;
+  left: -5px;
   bottom: -7px;
 }
 .map .animal_badger .animal__text {
   position: absolute;
-  top: -13px;
+  top: -33px;
   left: -15px;
 }
 .map .animal_weasel {
   position: absolute;
-  bottom: 506px;
-  left: 818px;
+  bottom: 512px;
+  left: 838px;
 }
 .map .animal_weasel .animal__icon {
+  position: absolute;
   width: 39px;
   height: 21px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -608px -591px;
+  left: -6px;
+  bottom: -8.5px;
 }
 .map .animal_weasel .animal__icon:hover {
+  position: absolute;
   width: 63px;
   height: 38px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -353px -591px;
-  left: -12px;
-  bottom: -8.5px;
+  left: -14px;
+  bottom: -12.5px;
 }
 .map .animal_weasel .animal__text {
   position: absolute;
-  top: -32px;
-  left: -17px;
+  top: -30px;
+  left: -6px;
 }
 .map .animal_mink {
   position: absolute;
-  bottom: 477px;
-  left: 819px;
+  bottom: 485px;
+  left: 838px;
 }
 .map .animal_mink .animal__icon {
+  position: absolute;
   width: 39px;
   height: 16px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -735px;
+  left: -6px;
+  bottom: -8.5px;
 }
 .map .animal_mink .animal__icon:hover {
+  position: absolute;
   width: 73px;
   height: 35px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -298px -371px;
-  left: -17px;
-  bottom: -9.5px;
+  left: -14px;
+  bottom: -17.5px;
 }
 .map .animal_mink .animal__text {
   position: absolute;
-  top: -27px;
-  left: -18px;
+  top: -20px;
+  left: -12px;
 }
 .map .animal_wildcat {
   position: absolute;
-  bottom: 483px;
-  left: 894px;
+  bottom: 487px;
+  left: 914px;
 }
 .map .animal_wildcat .animal__icon {
+  position: absolute;
   width: 39px;
   height: 39px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -382px;
+  left: 0px;
+  bottom: -8.5px;
 }
 .map .animal_wildcat .animal__icon:hover {
+  position: absolute;
   width: 54px;
   height: 55px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -724px 0px;
   left: -7.5px;
-  bottom: -8px;
+  bottom: -17px;
 }
 .map .animal_wildcat .animal__text {
   position: absolute;
-  top: -59px;
-  left: -14px;
+  top: -52px;
+  left: -12px;
 }
 .map .animal_canadian-wolf {
   position: absolute;
   bottom: 400px;
-  left: 817px;
+  left: 837px;
 }
 .map .animal_canadian-wolf .animal__icon {
+  position: absolute;
   width: 39px;
   height: 42px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -93px;
+  left: -7px;
+  bottom: -8.5px;
 }
 .map .animal_canadian-wolf .animal__icon:hover {
+  position: absolute;
   width: 53px;
   height: 59px;
   background-image: url("sprite_animals.png");
@@ -1408,22 +1583,26 @@
 }
 .map .animal_canadian-wolf .animal__text {
   position: absolute;
-  top: -56px;
-  left: -15px;
+  top: -52px;
+  left: -12px;
 }
 .map .animal_red-wolf {
   position: absolute;
   bottom: 313px;
-  left: 811px;
+  left: 831px;
 }
 .map .animal_red-wolf .animal__icon {
+  position: absolute;
   width: 48px;
   height: 37px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -661px -165px;
+  left: 0px;
+  bottom: -6.5px;
 }
 .map .animal_red-wolf .animal__icon:hover {
+  position: absolute;
   width: 64px;
   height: 50px;
   background-image: url("sprite_animals.png");
@@ -1434,22 +1613,26 @@
 }
 .map .animal_red-wolf .animal__text {
   position: absolute;
-  top: -56px;
+  top: -52px;
   left: -8px;
 }
 .map .animal_kangaroo {
   position: absolute;
   bottom: 232px;
-  left: 805px;
+  left: 825px;
 }
 .map .animal_kangaroo .animal__icon {
+  position: absolute;
   width: 48px;
   height: 43px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -724px -369px;
+  left: -4px;
+  bottom: -1.5px;
 }
 .map .animal_kangaroo .animal__icon:hover {
+  position: absolute;
   width: 60px;
   height: 55px;
   background-image: url("sprite_animals.png");
@@ -1460,8 +1643,8 @@
 }
 .map .animal_kangaroo .animal__text {
   position: absolute;
-  top: -51px;
-  left: 0px;
+  top: -52px;
+  left: 2px;
 }
 .map .animal_pigeon {
   position: absolute;
@@ -1491,27 +1674,31 @@
 }
 .map .animal_bear-brown {
   position: absolute;
+  left: 759px;
   bottom: 481px;
-  left: 739px;
 }
 .map .animal_bear-brown .animal__icon {
+  position: absolute;
   width: 33px;
   height: 42px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -788px -683px;
+  left: 6px;
+  bottom: -6.5px;
 }
 .map .animal_bear-brown .animal__icon:hover {
+  position: absolute;
   width: 52px;
   height: 66px;
   background-image: url("sprite_animals.png");
   background-repeat: no-repeat;
   background-position: -593px -223px;
-  left: -9.5px;
-  bottom: -12px;
+  left: -2.5px;
+  bottom: -17px;
 }
 .map .animal_bear-brown .animal__text {
   position: absolute;
   top: -32px;
-  left: -22px;
+  left: -20px;
 }
